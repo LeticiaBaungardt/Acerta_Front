@@ -1,13 +1,9 @@
-import { useState } from "react";
-import Header from "./components/header"
-import Login from "./components/Login";
- 
+import "./App.css"
+import AppRoutes from "./routes";
+
 export default function App() {
+
   return (
-    <main>
-      <Header/>
-      <Login/>
-    </main>
-    
+    <AppRoutes />
   )
 }

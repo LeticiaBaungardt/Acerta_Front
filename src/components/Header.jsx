@@ -1,12 +1,14 @@
+import LogoPagina from "../assets/Logo Acerta!.png"
+
 export default function Header () {
     
     return (
-        <header>
-            <img src="" alt="Logo da página" />
+        <header className="flex justify-between h-20 items-center font-Poppins">
+            <img src={LogoPagina} alt="Logo da página" className="h-14 pl-3" />
 
-            <div>
-                <img src="" alt="Foto perfil do usuário" className="" />
-                <button >Editar perfil</button>
+            <div className="pr-3">
+                <img src="" alt="Foto perfil do usuário"/>
+                <button>Editar perfil</button>
                 <button>Sair</button>
             </div>
         </header>
